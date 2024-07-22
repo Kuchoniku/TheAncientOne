@@ -1,0 +1,93 @@
+{
+  "${modID}:RelicID": {
+    "NAME": "Good Relic",
+    "FLAVOR": "Flavor text displayed in detailed relic view.",
+    "DESCRIPTIONS": [
+      "Gain [E] at the start of your turn. [E] is an energy icon."
+    ]
+  },
+  "${modID}:BrokenKey": {
+    "NAME": "Broken Key",
+    "FLAVOR": "It's old and worn, but it may still work...",
+    "DESCRIPTIONS": [
+      "The first time you draw a #y${modID}:Locked card each combat, #y${modID}:Unlock #b",
+      "."
+    ]
+  },
+  "${modID}:Chronometer": {
+    "NAME": "Chronometer",
+    "FLAVOR": "To ensure you run on time.",
+    "DESCRIPTIONS": [
+      "Displays the turn count. #yRight-click for a fancier effect."
+    ]
+  },
+  "${modID}:TwistedWires": {
+    "NAME": "Twisted Wires",
+    "FLAVOR": "They'll work... eventually.",
+    "DESCRIPTIONS": [
+      "At the end of turn #b"," gain #b", " Strength and Dexterity."
+    ]
+  },
+  "${modID}:TimeMachine": {
+    "NAME": "Time Machine",
+    "FLAVOR": "Brings the future to the present and the present to the past.",
+    "DESCRIPTIONS": [
+      "Start fights on turn #b", "."
+    ]
+  },
+  "${modID}:PendulumClock": {
+    "NAME": "Pendulum Clock",
+    "FLAVOR": "Swings ever in your favor.",
+    "DESCRIPTIONS": ["When the turn changes, gain #yBlock equal to how much it changes by."]
+  },
+  "${modID}:Lockpick": {
+    "NAME": "Lockpick",
+    "FLAVOR": "It opens more than just locks.",
+    "DESCRIPTIONS": ["When a card is #y${modID}:Unlocked, deal damage equal to how much #y${modID}:Lock it had before."]
+  },
+  "${modID}:SerratedMirror": {
+    "NAME": "Serrated Mirror",
+    "FLAVOR": "Your reflection within it is always smiling.",
+    "DESCRIPTIONS": ["When you are debuffed, apply #b",
+    " #y${modID}:Bleed to ALL enemies."]
+  },
+  "${modID}:SpareBattery": {
+    "NAME": "Spare Battery",
+    "FLAVOR": "It fits nicely.",
+    "DESCRIPTIONS": [
+      "When you play #yAutobeams, play #b",
+      " more."]
+  },
+  "${modID}:Metronome": {
+    "NAME": "Metronome",
+    "FLAVOR": "Evens things out.",
+    "DESCRIPTIONS": [
+      "At the end of even turns, reduce the turn counter by #b",
+      "."
+    ]
+  },
+  "${modID}:FixedKey": {
+    "NAME": "Fixed Key",
+    "FLAVOR": "Consistent and trustworthy.",
+    "DESCRIPTIONS": [
+      "The first time you draw a #y${modID}:Locked card each turn, #y${modID}:Unlock it."
+    ]
+  },
+  "${modID}:CombinationLock": {
+    "NAME": "Combination Lock",
+    "FLAVOR": "Ever changing yet ever impenetrable.",
+    "DESCRIPTIONS": [
+      "At the start of your turn gain [E]. If you have more #y${modID}:Locked cards in hand than #y${modID}:Unlocked cards, apply #yLock #b",
+      " to a random #yLocked card in hand. Otherwise, apply #yLock #b",
+      " to a random #yUnlocked card in hand."
+    ]
+  },
+  "${modID}:MagnifyingGlass": {
+    "NAME": "Magnifying Glass",
+    "FLAVOR": "Some say it was once used to harvest the energy of the sun.",
+    "DESCRIPTIONS": [
+      "#y${modID}:Beams deal #b",
+      " extra damage."
+    ]
+  }
+}

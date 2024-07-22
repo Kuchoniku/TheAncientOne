@@ -1,0 +1,234 @@
+{
+  "${modID}:PowerID": {
+    "NAME": "Ultimate Power",
+    "DESCRIPTIONS": [
+      "You are Very Cool and Strong."
+    ]
+  },
+  "${modID}:RetainEnergyPower": {
+    "NAME": "Cat Style",
+    "DESCRIPTIONS": [
+      "Keep up to #b",
+      " Energy for next turn."
+    ]
+  },
+  "${modID}:NextTurnRetainEnergyPower": {
+    "NAME": "Cat Style+",
+    "DESCRIPTIONS": [
+      "Retain #b",
+      " Energy on your next turn."
+    ]
+  },
+  "${modID}:DamageOnUnlockPower": {
+    "NAME": "Light Feet",
+    "DESCRIPTIONS": [
+      "Deal #b",
+      " damage when a card is #yUnlocked."
+    ]
+  },
+  "${modID}:DexOnUnlockPower": {
+    "NAME": "Light Feet",
+    "DESCRIPTIONS": [
+      "Gain #b",
+      " Temporary Dexterity when a card is #yUnlocked."
+    ]
+  },
+  "${modID}:BlockOnLockPower": {
+    "NAME": "No Pain No Gain",
+    "DESCRIPTIONS": [
+      "Gain #b",
+      " Block when a card is #yLocked."
+    ]
+  },
+  "${modID}:StrOnLockPower": {
+    "NAME": "No Pain No Gain",
+    "DESCRIPTIONS": [
+      "Gain #b",
+      " Temporary Strength when a card is #yLocked."
+    ]
+  },
+  "${modID}:TempStrNextTurnPower": {
+    "NAME": "Temporary Strength Next Turn",
+    "DESCRIPTIONS": [
+      "Gain #b",
+      " Temporary Strength next turn."
+    ]
+  },
+  "${modID}:CraneStylePower": {
+    "NAME": "Crane Style",
+    "DESCRIPTIONS": [
+      "Draw cards equal to the number of cards in your hand at the end of the next #b",
+      " turns, up to a max of #b"
+    ]
+  },
+  "${modID}:ClockCircuitPower": {
+    "NAME": "Clock Circuit",
+    "DESCRIPTIONS": [
+      "At the start of your turn, play #b",
+      " #yAutobeams.",
+      " #yAutobeam."
+    ]
+  },
+  "${modID}:UpgradedClockCircuitPower": {
+    "NAME": "Clock Circuit+",
+    "DESCRIPTIONS": [
+      "At the start of your turn, play #b",
+      " #yAutobeam+."
+    ]
+  },
+  "${modID}:DmgPerCardPlayPower": {
+    "NAME": "Horse Stance",
+    "DESCRIPTIONS": [
+      "At the end of your turn deal #b",
+      " damage per card played this turn (Currently #b",
+      " damage)."
+    ]
+  },
+  "${modID}:BlockPerCardPlayPower": {
+    "NAME": "Horse Stance+",
+    "DESCRIPTIONS": [
+      "At the end of your turn gain #b",
+      " Block per card played this turn (Currently #b",
+      " Block)."
+    ]
+  },
+  "${modID}:DmgPerCardPlayNextTurnPower": {
+    "NAME": "Horse Stance",
+    "DESCRIPTIONS": [
+      "Next turn deal #b",
+      " damage per card played that turn."
+    ]
+  },
+    "${modID}:BlockPerCardPlayNextTurnPower": {
+      "NAME": "Horse Stance+",
+      "DESCRIPTIONS": [
+        "Next turn gain #b",
+        " Block per card played that turn."
+      ]
+    },
+  "${modID}:OverdriveUpgradePower": {
+    "NAME": "Overdrive",
+    "DESCRIPTIONS": [
+      "#yBeams deal #b",
+      " additional damage."
+    ]
+  },
+  "${modID}:OverdriveDamagePower": {
+    "NAME": "Overheat",
+    "DESCRIPTIONS": [
+      "Take #b",
+      " damage when you play a #yBeam."
+    ]
+  },
+  "${modID}:ReadyPositionPower": {
+    "NAME": "Ready Position",
+    "DESCRIPTIONS": [
+      "At the start of your turn play a random #yStyle #b",
+      " times."
+    ]
+  },
+  "${modID}:UnlockStartOfTurnPower": {
+    "NAME": "Enlightened Form",
+    "DESCRIPTIONS": [
+      "At the start of your turn, #yUnlock #b",
+      "."
+    ]
+  },
+  "${modID}:RandomLockStartOfTurnPower": {
+    "NAME": "Enlightened Form",
+    "DESCRIPTIONS": [
+      "At the start of your turn, apply #yLock #b",
+      " to a random card."
+    ]
+  },
+  "${modID}:ChooseLockStartOfTurnPower": {
+    "NAME": "Enlightened Form+",
+    "DESCRIPTIONS": [
+      "At the start of your turn, apply #yLock #b",
+      " to up to #b",
+      " cards.",
+      "Lock."
+    ]
+  },
+  "${modID}:BleedPower": {
+    "NAME": "Bleed",
+    "DESCRIPTIONS": [
+      "At the start of its turn, it loses #b",
+      "At the end of your turn, you lose #b",
+      " HP, then reduce #yBleed by 1. The damage increases/decreases when the turn changes or when more #yBleed is applied (Min #b1)."
+    ]
+  },
+  "${modID}:UnlockIfBlockBrokenPower": {
+    "NAME": "Lock Block",
+    "DESCRIPTIONS": [
+      "If your Block is broken this turn, Unlock #b",
+      " at the start of your next turn."
+    ]
+  },
+  "${modID}:LockCardsPlayedPower": {
+    "NAME": "Mental Shackles",
+    "DESCRIPTIONS": [
+      "Apply #yLock #b",
+      " to cards played this turn."
+    ]
+  },
+  "${modID}:ImmortalMachinePower": {
+    "NAME": "Immortal Machine",
+    "DESCRIPTIONS": [
+      "At the start of your turn gain #b",
+      " #yBleed. You no longer take damage from attacks. When you are attacked gain #b",
+      " #yBleed instead. You can no longer gain block."
+    ]
+  },
+  "${modID}:PierceThroughPower": {
+    "NAME": "Pierced",
+    "DESCRIPTIONS": [
+      "The next time this creature would gain Block it gains #b",
+      " #yBleed instead."
+    ]
+  },
+  "${modID}:WitheringPower": {
+    "NAME": "Withering",
+    "DESCRIPTIONS": [
+      "When the turn changes, apply #yBleed equal to how much it changed by times #b",
+      " to a random enemy."
+    ]
+  },
+  "${modID}:ThievesToolsPower": {
+    "NAME": "Thieves' Tools",
+    "DESCRIPTIONS": [
+      "At the start of your turn #yUnlock #b",
+      " a random #yLocked card in hand."
+    ]
+  },
+  "${modID}:TetherPower": {
+    "NAME": "Tether",
+    "DESCRIPTIONS": [
+      "At the end of your turn, #yRetain #b",
+      " #yLocked cards.",
+      "Retain."
+    ]
+  },
+  "${modID}:SanguinePower": {
+    "NAME": "Sanguine",
+    "DESCRIPTIONS": [
+      "When you deal unblocked attack damage to an enemy with #yBleed, gain #b",
+      " #yBlock."
+    ]
+  },
+  "${modID}:TimeSlipPower": {
+    "NAME": "Time Slip",
+    "DESCRIPTIONS": [
+      "At the start of your turn, increase the turn count by #b",
+      "."
+    ]
+  },
+  "${modID}:UpgradedTimeSlipPower": {
+    "NAME": "Time Slip+",
+    "DESCRIPTIONS": [
+      "When the turn changes, increase the turn count by #b",
+      "."
+    ]
+  }
+
+}

@@ -1,0 +1,12 @@
+{
+  "modid": "${modID}",
+  "name": "${project.name}",
+  "author_list": ["${author}"],
+  "description": "!(project.description)",
+  "version": "${project.version}",
+  "sts_version": "${SlayTheSpire.version}",
+  "mts_version": "${ModTheSpire.version}",
+  "dependencies": ["basemod", "stslib"],
+  "update_json": "V1.0.1: Changed Slap, Fixed bugs, and Clarified text.",
+  "credits": "Thank you to londynbridge and Shai Benzion for helping make several of the cards."
+}

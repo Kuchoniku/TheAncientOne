@@ -1,0 +1,357 @@
+{
+  "${modID}:ExampleCard": {
+    "NAME": "Name",
+    "DESCRIPTION": "Description.",
+    "UPGRADE_DESCRIPTION": "This will automatically be used if the card is upgraded. Remove it if unneeded.",
+    "EXTENDED_DESCRIPTION": [
+      "You can put more text in here.",
+      "If you need to use it for stuff.",
+      "Blizzard is a good example for this."
+    ]
+  },
+  "${modID}:Strike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "${modID}:Defend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "${modID}:Ridgehand": {
+    "NAME": "Ridgehand",
+    "DESCRIPTION": "${modID}:Locked !M! NL Gain !B! Block and deal !D! damage."
+  },
+  "${modID}:Key": {
+    "NAME": "Key",
+    "DESCRIPTION": "${modID}:Unlockable. NL Retain. NL ${modID}:Unlock !M!"
+  },
+  "${modID}:Keyblade": {
+    "NAME": "Keyblade",
+    "DESCRIPTION": "Deal !D! damage. If this deals unblocked damage, NL ${modID}:Unlock !M!"
+  },
+  "${modID}:CatStyle": {
+    "NAME": "Cat Style",
+    "DESCRIPTION": "Gain !B! Block. NL Retain up to one unused [E] this turn",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Retain up to one unused [E] this turn and next turn"
+  },
+  "${modID}:ChargeBeam": {
+    "NAME": "Charge Beam",
+    "DESCRIPTION": "${modID}:Locked !${modID}:lock!. NL Retain. NL Deal !D! damage. NL Gains !M! damage when Retained."
+  },
+  "${modID}:HoldFirm": {
+    "NAME": "Hold Firm",
+    "DESCRIPTION": "Gain !B! Block. NL Increase turn counter by !M!."
+  },
+  "${modID}:TearOff": {
+    "NAME": "Tear Off",
+    "DESCRIPTION": "Take !${modID}:Dmg! damage. NL ${modID}:Unlock !M!."
+  },
+
+  "${modID}:OverheadStrike": {
+    "NAME": "Overhead Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Lock !M! random card in hand.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Lock !M! card in hand.",
+    "EXTENDED_DESCRIPTION": ["Lock."]
+  },
+  "${modID}:Padlock": {
+    "NAME": "Padlock",
+    "DESCRIPTION": "${modID}:Lock a card in hand. NL Gain !B! Block and !M! Plated Armor.",
+    "EXTENDED_DESCRIPTION": ["Lock."]
+  },
+  "${modID}:ShinyKey": {
+    "NAME": "Shiny Key",
+    "DESCRIPTION": "Retain. NL Draw !${modID}:draw! card. NL ${modID}:Unlock !M!.",
+    "UPGRADE_DESCRIPTION": "Retain. NL ${modID}:Unending. NL Draw !${modID}:draw! card. NL ${modID}:Unlock !M!."
+  },
+  "${modID}:Slap": {
+    "NAME": "Slap",
+    "DESCRIPTION": "Ethereal. NL ${modID}:Unending. NL Deal !D! damage and apply !M! ${modID}:Bleed."
+  },
+  "${modID}:TwinBeam": {
+    "NAME": "Twin Beam",
+    "DESCRIPTION": "Deal !D! damage !M! times."
+  },
+  "${modID}:HookKick": {
+    "NAME": "Hook Kick",
+    "DESCRIPTION": "Deal !D! damage. NL Increase the turn counter by !M!."
+  },
+  "${modID}:Jab": {
+    "NAME": "Jab",
+    "DESCRIPTION": "Deal !D! damage. NL Draw !M! cards next turn."
+  },
+  "${modID}:WindUp": {
+    "NAME": "Wind Up",
+    "DESCRIPTION": "Gain !M! Vigor. NL If the enemy intends to attack, apply !${modID}:vulnerable! Vulnerable."
+  },
+  "${modID}:LockBlock": {
+    "NAME": "Lock Block",
+    "DESCRIPTION": "Gain !B! Block. NL If your Block is broken this turn, ${modID}:Unlock !M! at the start of your next turn."
+  },
+  "${modID}:RiddleWithBeams": {
+    "NAME": "Riddle With Beams",
+    "DESCRIPTION": "Play !M! *Autobeam+."
+  },
+  "${modID}:DiffusionBeam": {
+    "NAME": "Diffusion Beam",
+    "DESCRIPTION": "Deal !D! damage. NL Damage is decreased by turn count."
+  },
+  "${modID}:ChainWhip": {
+    "NAME": "Chain Whip",
+    "DESCRIPTION": "${modID}:Unlockable. Deal !D! damage to ALL enemies. NL Play and ${modID}:Lock the top card of your Deck. NL When this card is ${modID}:Locked ALL Chain Whips deal !M! more damage."
+  },
+  "${modID}:Lacerate": {
+    "NAME": "Lacerate",
+    "DESCRIPTION": "Deal !D! damage twice. NL Apply !M! ${modID}:Bleed."
+  },
+  "${modID}:TimewarpSpeed": {
+    "NAME": "Timewarp Speed",
+    "DESCRIPTION": "Deal !D! damage and draw !${modID}:draw! card. NL Increase the turn counter by !M!. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. Deal !D! damage and draw !${modID}:draw! card. NL Increase the turn counter by !M!. NL Exhaust."
+  },
+  "${modID}:RoundhouseKick": {
+    "NAME": "Roundhouse Kick",
+    "DESCRIPTION": "Deal !D! damage. NL Decrease the turn counter by !M!. NL Shuffle !${modID}:speeds! *Timewarp *Speeds into your draw pile."
+  },
+  "${modID}:Threaten": {
+    "NAME": "Threaten",
+    "DESCRIPTION": "Retain. NL Deal !D! damage to ALL enemies. NL If this card is Retained, deal !M! damage to all enemies."
+  },
+  "${modID}:SteelSkin": {
+    "NAME": "Steel Skin",
+    "DESCRIPTION": "Retain. NL Gain !B! Block. NL If this card is Retained, Gain !M! Block."
+  },
+  "${modID}:Meditate": {
+    "NAME": "Meditate",
+    "DESCRIPTION": "Increase turn counter by !M!. NL Exhaust."
+  },
+  "${modID}:CalendarStrike": {
+    "NAME": "Calendar Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Can only be played on turn !M! or later",
+    "EXTENDED_DESCRIPTION": ["Cannot be played before turn #r", " ."]
+  },
+  "${modID}:LaserBeam": {
+    "NAME": "Laser Beam",
+    "DESCRIPTION": "Deal !D! damage and apply !M! Vulnerable to ALL enemies."
+  },
+  "${modID}:ImpossibleFumes": {
+    "NAME": "Impossible Fumes",
+    "DESCRIPTION": "Gain !B! Block. NL Apply !M! Weak and !${modID}:bleed! ${modID}:Bleed to ALL enemies. NL Exhaust."
+  },
+  "${modID}:CraneStyle": {
+    "NAME": "Crane Style",
+    "DESCRIPTION": "Discard a card. Next turn draw cards equal to the amount of cards left in your hand at the end of the turn (Max: !M!)."
+  },
+  "${modID}:BrawlersPunch": {
+    "NAME": "Brawler's Punch",
+    "DESCRIPTION": "${modID}:Lock !M! card. NL Deal !D! damage per ${modID}:Lock on cards in hand.",
+    "UPGRADE_DESCRIPTION": "${modID}:Lock up to !M! cards. NL Deal !D! damage per ${modID}:Lock on cards in hand."
+  },
+  "${modID}:ActivatorBeam": {
+    "NAME": "Activator Beam",
+    "DESCRIPTION": "Gain !B! Block. NL Play !M! *Autobeams.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Play !M! *Autobeam+."
+  },
+  "${modID}:ClockCircuit": {
+    "NAME": "Clock Circuit",
+    "DESCRIPTION": "At the start of your turn, play !M! *Autobeams.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the start of your turn, play !M! *Autobeam+."
+  },
+  "${modID}:HorseStyle": {
+    "NAME": "Horse Style",
+    "DESCRIPTION": "Deal !M! damage per card played next turn to a random enemy at the end of that turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !M! damage to a random enemy and gain !${modID}:block! Block per card played next turn at the end of that turn. NL Exhaust."
+  },
+  "${modID}:DisruptorBeam": {
+    "NAME": "Disruptor Beam",
+    "DESCRIPTION": "Gain !B! Block. NL Apply !M! Weak."
+  },
+  "${modID}:MesmerizingBauble": {
+    "NAME": "Mesmerizing Bauble",
+    "DESCRIPTION": "Unplayable. NL When this card is ${modID}:Locked, apply !M! Weak and Vulnerable to ALL enemies. ",
+    "EXTENDED_DESCRIPTION": ["I can't play this card."]
+  },
+  "${modID}:LightFeet": {
+    "NAME": "Light Feet",
+    "DESCRIPTION": "When a card is ${modID}:Unlocked, deal !M! damage to a random enemy and gain !${modID}:Dex! Temporary Dexterity."
+  },
+  "${modID}:NoPainNoGain": {
+    "NAME": "No Pain No Gain",
+    "DESCRIPTION": "When a card is ${modID}:Locked, gain !M! Block and gain !${modID}:Str! Temporary Strength."
+  },
+  "${modID}:VentHeat": {
+    "NAME": "Vent Heat",
+    "DESCRIPTION": "Deal !D! damage, NL Gains !M! damage per Beam played this combat."
+  },
+  "${modID}:RoundTwo": {
+    "NAME": "Round Two",
+    "DESCRIPTION": "Reset the turn counter to !${modID}:turn!. NL Gain !M! Strength and Dexterity."
+  },
+  "${modID}:Blip": {
+    "NAME": "Blip",
+    "DESCRIPTION": "Deal !D! damage. NL Decrease the turn counter by !M!."
+  },
+  "${modID}:Splatter": {
+    "NAME": "Splatter",
+    "DESCRIPTION": "Apply ${modID}:Bleed equal to the amount of ${modID}:Bleed on target enemy to ALL enemies. NL Exhaust."
+  },
+  "${modID}:Withering": {
+    "NAME": "Withering",
+    "DESCRIPTION": "When the turn changes, apply ${modID}:Bleed equal to how much it changed by to a random enemy."
+  },
+  "${modID}:ThievesTools": {
+    "NAME": "Thieves' Tools",
+    "DESCRIPTION": "At the start of your turn, ${modID}:Unlock a random card in your hand."
+  },
+  "${modID}:Tether": {
+    "NAME": "Tether",
+    "DESCRIPTION": "At the end of your turn, Retain !M! ${modID}:Locked card."
+  },
+  "${modID}:Unchain": {
+    "NAME": "Unchain",
+    "DESCRIPTION": "Lose !${modID}:strLost! Strength. NL Gain Strength equal to the turn count. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Can target ANY creature. Target loses !${modID}:strLost! Strength and gains Strength equal to the turn count. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [" NL (Gain !M! Strength)"]
+  },
+  "${modID}:Surprise": {
+    "NAME": "Surprise",
+    "DESCRIPTION": "Apply !M! Weak and Vulnerable. NL The amount is reduced by the turn count.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Apply !M! Weak and Vulnerable. NL The amount is reduced by the turn count."
+  },
+  "${modID}:Reinforced": {
+    "NAME": "Reinforced",
+    "DESCRIPTION": "Gain !M! Plated Armor. Can be Upgraded any number of times."
+  },
+  "${modID}:PierceThrough": {
+    "NAME": "Pierce Through",
+    "DESCRIPTION": "Remove all Block from the enemy. NL Deal !D! damage. NL The next time the enemy would gain Block, it gains !M! ${modID}:Bleed instead."
+  },
+  "${modID}:Hemorrhage": {
+    "NAME": "Hemorrhage",
+    "DESCRIPTION": "Innate. NL Deal !D! damage. NL Apply !M! ${modID}:Bleed. NL Exhaust."
+  },
+  "${modID}:Jailbreak": {
+    "NAME": "Jailbreak",
+    "DESCRIPTION": "Locked !M!. NL Gain !${modID}:energy! [E]. NL Draw !${modID}:cards! cards."
+  },
+  "${modID}:MentalShackles": {
+    "NAME": "Mental Shackles",
+    "DESCRIPTION": "Draw !M! cards. Lock all cards played this turn."
+  },
+  "${modID}:ClockworkKey": {
+    "NAME": "Clockwork Key",
+    "DESCRIPTION": "${modID}:Unending. NL Ethereal. NL Odd Turn: ${modID}:Lock a card in hand. NL Even Turn: ${modID}:Unlock !M!. ",
+    "UPGRADE_DESCRIPTION": "${modID}:Unending. NL Retain. NL Odd Turn: ${modID}:Lock a card in hand. NL Even Turn: ${modID}:Unlock !M!. ",
+    "EXTENDED_DESCRIPTION": ["Lock."]
+  },
+  "${modID}:MonkeyStyle": {
+    "NAME": "Monkey Style",
+    "DESCRIPTION": "Gain !M! Blur. NL Play !${modID}:beams!X *Autobeams. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Blur. NL Play !${modID}:beams!X *Autobeam+. NL Exhaust."
+  },
+  "${modID}:LastResort": {
+    "NAME": "Last Resort",
+    "DESCRIPTION": "${modID}:Locked !M!. NL Deal !D! damage to ALL enemies."
+  },
+  "${modID}:MasterKey": {
+    "NAME": "Master Key",
+    "DESCRIPTION": "${modID}:Unlockable. NL ${modID}:Unlock X. NL ${modID}:Refund !M!. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "${modID}:Unlockable. NL ${modID}:Unlock X+1. NL ${modID}:Refund !M!. NL Exhaust."
+  },
+  "${modID}:GildedKey": {
+    "NAME": "Gilded Key",
+    "DESCRIPTION": "${modID}:Unlock. NL Increase the turn count by !${modID}:turn!. NL Gain !B! Block. NL Draw !${modID}:turn! card."
+  },
+  "${modID}:ApocalypseStrike": {
+    "NAME": "Apocalypse Strike",
+    "DESCRIPTION": "Deal !D! damage. NL This card's cost is decreased by turn count."
+  },
+  "${modID}:Scapegoat": {
+    "NAME": "Scapegoat",
+    "DESCRIPTION": "${modID}:Unlockable. NL Gain !B! Block and deal !D! damage per stack of ${modID}:Lock on this card.",
+    "UPGRADE_DESCRIPTION": "Locked !M!. NL ${modID}:Unlockable. NL Gain !B! Block and deal !D! damage per stack of ${modID}:Lock on this card."
+  },
+  "${modID}:Overdrive": {
+    "NAME": "Overdrive",
+    "DESCRIPTION": "ALL ${modID}:Beams deal !M! more damage. NL When you play a ${modID}:Beam take !${modID}:selfDamage! damage."
+  },
+  "${modID}:OrbitalBeam": {
+    "NAME": "Orbital Beam",
+    "DESCRIPTION": "Deal !D! damage to the enemy with the most health. NL Play !M! *Autobeams.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage to the enemy with the most health. NL Play !M! *Autobeam+."
+  },
+  "${modID}:LockdownProtocol": {
+    "NAME": "Lockdown Protocol",
+    "DESCRIPTION": "Must be the first card played this turn. NL Apply ${modID}:Lock !${modID}:lock! to all cards in hand. Gain !M! Intangible. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Must be the first card played this turn. NL Apply ${modID}:Lock !${modID}:lock! to all cards in hand. Gain !M! Intangible. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "I have played cards this turn."
+    ]
+  },
+  "${modID}:ReadyPosition": {
+    "NAME": "Ready Position",
+    "DESCRIPTION": "At the start of your turn, play a random ${modID}:Style.",
+    "UPGRADE_DESCRIPTION": "At the start of your turn, play a random ${modID}:Style twice."
+  },
+  "${modID}:EnlightenedForm": {
+    "NAME": "Enlightened Form",
+    "DESCRIPTION": "At the start of your turn, apply !${modID}:lock! ${modID}:Lock to a random card, then ${modID}:Unlock !M!.",
+    "UPGRADE_DESCRIPTION": "At the start of your turn, apply !${modID}:lock! ${modID}:Lock to up to !${modID}:lock! cards, then ${modID}:Unlock !M!."
+  },
+  "${modID}:ImmortalMachine": {
+    "NAME": "Immortal Machine",
+    "DESCRIPTION": "At the start of your turn gain 1 ${modID}:Bleed. NL When you would take damage from an enemy attack, gain !M! ${modID}:Bleed instead. NL You can no longer gain Block."
+  },
+  "${modID}:RendForTheOldGods": {
+    "NAME": "Rend For The Old Gods",
+    "DESCRIPTION": "If the enemy has ${modID}:Bleed, deal !D! damage. NL Deal !D! damage and apply !M! ${modID}:Bleed."
+  },
+  "${modID}:Banish": {
+    "NAME": "Banish",
+    "DESCRIPTION": "Apply ${modID}:Lock !M! to a card in hand. NL Gain [E] and draw cards equal to its cost. Exhaust.",
+    "UPGRADE_DESCRIPTION": "Apply ${modID}:Lock !M! to a card in hand. NL Gain [E] and draw cards equal to its cost plus 1. Exhaust."
+  },
+  "${modID}:SkeletonKey": {
+    "NAME": "Skeleton Key",
+    "DESCRIPTION": "Fully ${modID}:Unlock and play !M! card in hand. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Fully ${modID}:Unlock and play !M! cards in hand. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "fully Unlock and play."
+    ]
+  },
+  "${modID}:Exsanguinate": {
+    "NAME": "Exsanguinate",
+    "DESCRIPTION": "Deal !D! damage. NL Damage is increased by the amount of ${modID}:Bleed damage on target."
+  },
+  "${modID}:CertaintyOfSteel": {
+    "NAME": "Certainty Of Steel",
+    "DESCRIPTION": "${modID}:Lock, Upgrade, and reduce the cost of a card in hand by !M!. NL Gain !${modID}:artifact! Artifact.",
+    "EXTENDED_DESCRIPTION": ["Lock, Upgrade, and Reduce Cost."]
+  },
+  "${modID}:Sanguine": {
+    "NAME": "Sanguine",
+    "DESCRIPTION": "When you deal unblocked attack damage to an enemy with ${modID}:Bleed, gain !M! Block."
+  },
+  "${modID}:Dissipate": {
+    "NAME": "Dissipate",
+    "DESCRIPTION": "Exhaust any number of ${modID}:Locked cards in hand. NL Gain !B! Block per ${modID}:Locked on cards. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": ["Exhaust."]
+  },
+  "${modID}:TimeSlip": {
+    "NAME": "Time Slip",
+    "DESCRIPTION": "At the start of your turn, increase the turn count by !M!.",
+    "UPGRADE_DESCRIPTION": "When the turn count changes, increase it by !M!."
+  },
+  "${modID}:AThousandBrilliantBeams": {
+    "NAME": "A Thousand Brilliant Beams",
+    "DESCRIPTION": "Play an *Autobeam for every !${modID}:beams! *Autobeams played this combat. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Play an *Autobeam+ for every !${modID}:beams! *Autobeams played this combat. NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (Plays !M! *Autobeams)",
+      " NL (Plays !M! *Autobeam+)"
+    ]
+  },
+  "${modID}:Autobeam": {
+    "NAME": "Autobeam",
+    "DESCRIPTION": "Deal !D! damage to a random enemy. NL Exhaust."
+  }
+}
